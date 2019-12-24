@@ -29,6 +29,11 @@ func GetLines(filePath string) []string {
 	return lines
 }
 
+// GetFirstLine returns the first line of a file
+func GetFirstLine(filePath string) string {
+	return GetLines(filePath)[0]
+}
+
 // WriteLines writes the lines vector into the given filePath
 // NB: override the file if it exists
 func WriteLines(lines []string, filePath string) {
