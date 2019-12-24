@@ -3,6 +3,7 @@ package utils
 import (
 	"bufio"
 	"os"
+	"strconv"
 )
 
 // GetLines returns a vector of lines from the given file
@@ -42,5 +43,18 @@ func WriteLines(lines []string, filePath string) {
 		writer.WriteString(line + "\n")
 	}
 
+	writer.Flush()
+}
+
+// WriteIntegerOutput writes the integer into "output_${outputIdx}"
+func WriteIntegerOutput(out int, outputIdx string) {
+	file, err := os.Create("output" + outputIdx)
+	if err != nil {
+		return
+	}
+	defer file.Close()
+
+	writer := bufio.NewWriter(file)
+	writer.WriteString(strconv.Itoa(out) + "\n")
 	writer.Flush()
 }
