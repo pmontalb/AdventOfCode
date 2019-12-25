@@ -63,3 +63,16 @@ func WriteIntegerOutput(out int, outputIdx string) {
 	writer.WriteString(strconv.Itoa(out) + "\n")
 	writer.Flush()
 }
+
+// WriteSingleStringOutput writes the string into "output_${outputIdx}"
+func WriteSingleStringOutput(out string, outputIdx string) {
+	file, err := os.Create("output" + outputIdx)
+	if err != nil {
+		return
+	}
+	defer file.Close()
+
+	writer := bufio.NewWriter(file)
+	writer.WriteString(out + "\n")
+	writer.Flush()
+}
