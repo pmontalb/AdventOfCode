@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-	"utils"
+	"../../../utils"
 )
 
 // GridPoint describes points in the grid

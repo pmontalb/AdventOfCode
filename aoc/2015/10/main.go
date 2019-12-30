@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math"
 	"strconv"
-	"utils"
+	"../../../utils"
 )
 
 func digitiseWithPowerOfTen(numberString string) []int {

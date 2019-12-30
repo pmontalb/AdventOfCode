@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"utils"
+	"../../../utils"
 )
 
 func isCharacterValid(char string) bool {
