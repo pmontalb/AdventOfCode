@@ -76,3 +76,8 @@ func WriteSingleStringOutput(out string, outputIdx string) {
 	writer.WriteString(out + "\n")
 	writer.Flush()
 }
+
+// ReadUntilLast returns str[:-1]
+func ReadUntilLast(str string) string {
+	return str[:len(str)-1]
+}
