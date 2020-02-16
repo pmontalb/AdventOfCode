@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"../../../utils"
+	"../utils"
 )
 
 // HouseLocation describe the location of the visited house

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strconv"
 
-	"../../../utils"
+	"../utils"
 )
 
 func sum(weights []int) int {

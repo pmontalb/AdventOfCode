@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"../../../utils"
+	"../utils"
 )
 
 // Path stores the graph info

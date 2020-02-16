@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-	"../../../utils"
+	"../utils"
 )
 
 // SignalCombiner stores the operation between signal

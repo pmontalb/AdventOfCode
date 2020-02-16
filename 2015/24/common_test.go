@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"../../../utils"
+	"../utils"
 )
 
 func TestCase1(t *testing.T) {

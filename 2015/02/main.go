@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"../../../utils"
+	"../utils"
 )
 
 func getSurface(l int, w int, h int) int {

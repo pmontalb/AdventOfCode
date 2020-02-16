@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"../../../utils"
+	"../utils"
 )
 
 type Instruction struct {

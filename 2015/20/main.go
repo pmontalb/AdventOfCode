@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"../../../utils"
+	"../utils"
 )
 
 const maxGuess = 1000000 // not the most generic one!

@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"../../../utils"
+	"../utils"
 )
 
 func getDistinctMolecules(molecule string, tokenReplacementMap map[string][]string) map[string]bool {

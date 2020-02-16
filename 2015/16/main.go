@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"../../../utils"
+	"../utils"
 )
 
 const invalidValue = -1

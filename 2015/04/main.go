@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-	"../../../utils"
+	"../utils"
 )
 
 const maxInteger int = 2<<32 - 1

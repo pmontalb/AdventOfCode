@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"../../../utils"
+	"../utils"
 )
 
 type Light struct {

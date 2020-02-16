@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"../../../utils"
+	"../utils"
 )
 
 type Reindeer struct {

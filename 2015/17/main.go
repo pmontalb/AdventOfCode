@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strconv"
 
-	"../../../utils"
+	"../utils"
 )
 
 func main() {

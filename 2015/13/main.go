@@ -5,7 +5,7 @@ import (
 	"math"
 	"strconv"
 	"strings"
-	"../../../utils"
+	"../utils"
 )
 
 func parseRelationships(relationships map[string]map[string]int, lines []string) []string {
